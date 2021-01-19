@@ -120,6 +120,15 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
 }
 
+#header img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  right: 20px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
 @media (max-width: 992px) {
   #header {
     width: 300px;
@@ -145,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
 }
 
-.nav-menu > ul > li {
+.nav-menu > ul > li > {
   position: relative;
   white-space: nowrap;
 }
@@ -434,8 +443,6 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-
-
 .list-unstyled{
   padding-left: 0;
   margin-bottom: 20px;
