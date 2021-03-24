@@ -381,6 +381,7 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #728394;
+  text-decoration: underline;
 }
 
 .about .content ul {
@@ -502,19 +503,38 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Resume
+# Tarifs
 --------------------------------------------------------------*/
+.resume .section-title p {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.resume .section-title p span {
+  color: #0563bb;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.resume .col-lg-6 {
+  background: #f7f8f9;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #45505b;
+  color: #0563bb;
+  text-decoration: underline;
+  text-align: center;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
-  margin-top: -2px;
+  /*margin-top: -2px;*/
   border-left: 2px solid #0563bb;
   position: relative;
 }
@@ -525,8 +545,14 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: #272829;
   margin-bottom: 10px;
+}
+
+.resume .resume-item span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0563bb;
 }
 
 .resume .resume-item h5 {
@@ -560,6 +586,10 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #0563bb;
+}
+
+.resume .btn {
+  margin-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
