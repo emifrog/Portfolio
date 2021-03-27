@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Développeur Web Freelance</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+  <link href="assets/css/404.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="text">404</h1>
+
+        <div class="content">
+            <p>La page que vous recherchez n'existe pas.</p>
+            <a href="index.html" class="btn">go back to home</a>
+        </div>
+    </div>
+
+    <script>
+
+        let container = document.querySelector('.container')
+        let text = document.querySelector('.text');
+    
+        container.addEventListener('mousemove', (e) =>{
+    
+            var x = (window.innerWidth / 2 - e.pageX) / 10;
+            var y = (window.innerHeight / 2 - e.pageY) / 10;
+    
+            text.style.transform = `translateX(${x}px) translateY(${y}px)`;
+    
+        })
+    
+    </script>
+
+</body>
+</html>

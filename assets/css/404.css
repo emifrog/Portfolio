@@ -1,0 +1,79 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border:none;
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize;
+    transition: all .3s linear;
+}
+
+body{
+    overflow: hidden;
+}
+
+.container{
+    min-height: 100vh;
+    background:url(../img/404.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.container .text{
+    text-align: center;
+    font-size: 30vw;
+    color: #0563BB;
+    text-shadow: 1px 1px 0px #0002,
+                 1px 1px 0px #fff,
+                 2px 2px 0px #fff,
+                 3px 3px 0px #fff,
+                 4px 4px 0px #fff,
+                 5px 5px 0px #fff,
+                 6px 6px 0px #fff,
+                 7px 7px 0px #fff,
+                 8px 8px 0px #fff,
+                 9px 9px 0px #fff,
+                 10px 10px 0px #fff,
+                 11px 11px 0px #fff,
+                 12px 12px 0px #fff,
+                 13px 13px 0px #fff,
+                 14px 14px 0px #fff,
+                 15px 15px 0px #0009,
+                 20px 20px 10px #0009;
+}
+
+.container .content{
+    position: absolute;
+    top:70%; left:50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.container .content p{
+    font-size: 30px;
+    font-weight: 400;
+    color:#fff;
+    text-shadow: 0 5px 10px #000;
+    padding: 25px 0;
+}
+
+.container .content .btn{
+    display: inline-block;
+    height:50px;
+    width: 250px;
+    line-height: 50px;
+    background:#fff;
+    color:#444;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px #0009;
+}
+
+.container .content .btn.btn:hover{
+    transform:scale(.9);
+}
