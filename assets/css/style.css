@@ -4,8 +4,9 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
-  /*background: #0563bb;*/
+  background: #fff;
 }
+
 
 a {
   color: #0563bb;
@@ -98,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
+# Désactiver le délai d'animation aos sur les appareils mobiles
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
@@ -291,6 +292,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero p span {
   color: #0563bb;
   letter-spacing: 1px;
+  font-weight: 500;
 }
 
 #hero .social-links {
@@ -298,7 +300,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .social-links a {
-  font-size: 24px;
+  font-size: 30px;
   display: inline-block;
   color: #45505b;
   line-height: 1;
@@ -1247,4 +1249,27 @@ section {
 #footer .credits {
   font-size: 16px;
   font-weight: 600;
+}
+
+/*--------------------------------------------------------------
+# Dark-theme
+--------------------------------------------------------------*/
+
+#theme-toggler {
+  position: fixed;
+  top: 2rem; right: 2rem;
+  z-index: 998;
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  font-size: 1rem;
+  background: #0563bb;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5rem;
+}
+
+#theme-toggle .fa-sun {
+  transform: rotate(-180deg);
 }
