@@ -139,6 +139,14 @@
       once: true
     });
   }
+  
+
+  // Dark-mode
+  $('#theme-toggler').click(function(){
+    $(this).toggleClass('fa-sun');
+    $('body').toggleClass('dark-theme');
+  });
+
 
   // Porfolio isotope and filter
   $(window).on('load', function() {
